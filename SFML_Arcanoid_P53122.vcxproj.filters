@@ -32,10 +32,10 @@
     <ClInclude Include="textobj.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="bat.h">
+    <ClInclude Include="brick.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="brick.h">
+    <ClInclude Include="bat.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="brickRow.h">

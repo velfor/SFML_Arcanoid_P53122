@@ -22,14 +22,18 @@ void brickFieldInint(BrickField& brickField) {
 	}
 }
 
-void brickRowUpdate(BrickField& brickField) {
-	for (int i = 0; i < brickField.size; i++) {
-		brickUpdate(brickField.arr[i]);
+void brickFieldUpdate(BrickField& brickField) {
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLUMNS; j++) {
+			brickUpdate(brickField.arr[i][j]);
+		}
 	}
 }
 
-void brickRowDraw(sf::RenderWindow& window, const BrickField& brickField) {
-	for (int i = 0; i < brickField.size; i++) {
-		brickDraw(window, brickField.arr[i]);
+void brickFieldDraw(sf::RenderWindow& window, const BrickField& brickField) {
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLUMNS; j++) {
+			brickDraw(window, brickField.arr[i][j]);
+		}
 	}
 }

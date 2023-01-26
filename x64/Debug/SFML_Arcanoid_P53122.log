@@ -1,6 +1,6 @@
 ﻿  main.cpp
-D:\forvel\SFML_Arcanoid_P53122\main.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\forvel\SFML_Arcanoid_P53122\main.cpp(15,46): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-D:\forvel\SFML_Arcanoid_P53122\main.cpp(15,32): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-D:\forvel\SFML_Arcanoid_P53122\main.cpp(16,27): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+D:\forvel\SFML_Arcanoid_P53122\main.cpp(14,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\forvel\SFML_Arcanoid_P53122\main.cpp(16,46): warning C4244: аргумент: преобразование "const float" в "unsigned int", возможна потеря данных
+D:\forvel\SFML_Arcanoid_P53122\main.cpp(16,32): warning C4244: аргумент: преобразование "const float" в "unsigned int", возможна потеря данных
+D:\forvel\SFML_Arcanoid_P53122\main.cpp(17,27): warning C4244: аргумент: преобразование "const float" в "unsigned int", возможна потеря данных
   SFML_Arcanoid_P53122.vcxproj -> D:\forvel\SFML_Arcanoid_P53122\x64\Debug\SFML_Arcanoid_P53122.exe

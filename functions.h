@@ -4,9 +4,9 @@
 
 void initBat(sf::RectangleShape& bat, const sf::Color batColor, const sf::Vector2f batPosition)
 {
-	bat.setSize(batSize);
-	bat.setFillColor(batColor);
-	bat.setPosition(batPosition);
+	bat.setSize(BAT_SIZE);
+	bat.setFillColor(BAT_COLOR);
+	bat.setPosition(BAT_START_POS);
 }
 
 

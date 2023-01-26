@@ -6,25 +6,24 @@ const float WINDOW_HEIGHT = 600;
 const std::string WINDOW_TITLE = "SFML Lesson2";
 const float FPS = 60.f;
 
-const float BAT_WIDTH = 20.f;
-const float BAT_HEIGHT = 80.f;
-const float BAT_OFFSET = 50.f;
-const sf::Vector2f batSize(20.f, 80.f);
-const sf::Color leftBatColor{ 158,20,37 };
-const sf::Color rightBatColor{ 20,158,49 };
-const float batSpeed = 5.f;
-const sf::Vector2f leftBatStartPos{ BAT_OFFSET, (WINDOW_HEIGHT - BAT_HEIGHT) / 2 };
-const sf::Vector2f rightBatStartPos{ WINDOW_WIDTH - BAT_OFFSET, (WINDOW_HEIGHT - BAT_HEIGHT) / 2 };
+const float BAT_WIDTH = 100.f;
+const float BAT_HEIGHT = 20.f;
+const float BAT_OFFSET = 20.f;
+const sf::Vector2f BAT_SIZE(100.f, 20.f);
+const float BAT_SPEED = 5.f;
+const sf::Color BAT_COLOR{ sf::Color{255,102,0} };
+const sf::Vector2f BAT_START_POS{ (WINDOW_WIDTH - BAT_WIDTH) / 2, 
+WINDOW_HEIGHT-BAT_OFFSET-BAT_HEIGHT};
 
-const float BALL_RADIUS = 25.f;
+const float BALL_RADIUS = 10.f;
 const sf::Color BALL_COLOR{ sf::Color::Yellow };
 const sf::Vector2f BALL_START_POS{ 
 	(WINDOW_WIDTH - 2 * BALL_RADIUS) / 2, 
 	(WINDOW_HEIGHT - 2 * BALL_RADIUS) / 2 
 };
 
-const int CHAR_SIZE = 64;
-const sf::Vector2f TEXT_START_POS{ 10.f, 10.f };
+const int CHAR_SIZE = 48;
+const sf::Vector2f TEXT_START_POS{ 10.f, 0.f };
 
 const float BRICK_WIDTH = 40.f;
 const float BRICK_HEIGHT = 20.f;
