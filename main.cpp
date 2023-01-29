@@ -46,18 +46,8 @@ int main()
 
 		ballUpdate(ball);
 		textUpdate(scoreText, ball.score);
-
 		
-
-		//ќтбивание м€ча от ракетки
-		//вычисл€ем точки-середины сторон описанного вокруг м€ча квадрата
-		float ballX = ball.shape.getPosition().x;
-		float ballY = ball.shape.getPosition().y;
-		Vector2f midTop{ ballX + BALL_RADIUS, ballY };
-		Vector2f midLeft{ ballX , ballY + BALL_RADIUS };
-		Vector2f midBottom{ ballX + BALL_RADIUS, ballY + 2 * BALL_RADIUS };
-		Vector2f midRight{ ballX + 2 * BALL_RADIUS, ballY + BALL_RADIUS };
-		
+		checkCollisions(ball, bat, field);
 
 		//3 ќтрисовка окна
 		//3.1 ќчистка окна
